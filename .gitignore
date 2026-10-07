@@ -147,3 +147,13 @@ vite.config.ts.timestamp-*
 
 # Turbo Repo
 .turbo
+# Backend (Kotlin / Gradle / IntelliJ)
+backend/build/
+backend/.gradle/
+.idea/
+*.iml
+out/
+
+# Secrets - never commit these
+.env
+application-local.properties
